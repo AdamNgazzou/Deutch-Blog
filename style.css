@@ -72,7 +72,9 @@ header.shadow .logo{
     justify-content: space-between;
     padding: 18px 0;
 }
-
+#titl{
+    margin-bottom:150px;
+}
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
@@ -166,7 +168,9 @@ iframe{
     width: 50%;
     min-height: 500px;
 }
-
+#img2{
+    margin-top:25px;
+}
 .btn2{
     position: relative;
     display: inline-block;
@@ -445,10 +449,16 @@ footer p{
     .about{
         flex-direction: column;
     }
+    #img2{
+        margin-top:0px;
+    }
     iframe{
         height:750px;
         padding-right:10px;
         padding-left: 5px;
+    }
+    #titl{
+        margin-bottom:0;
     }
     .about .contentBx{
         min-width: 100%;
