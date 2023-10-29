@@ -1,3 +1,19 @@
+//scroll
+function scrollToAndOpen(x) {
+    var targetSection = document.querySelector('#con');
+
+    if (targetSection) {
+        targetSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+        });
+
+        // Open the "letter.html" page in the "container" frame
+        var containerFrame = document.getElementsByName("container")[0];
+        containerFrame.src = x;
+    }
+}
 // nav background
 let header = document.querySelector("header");
 
